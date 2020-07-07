@@ -297,7 +297,7 @@ def run_test_pizza():
     #     -- on a yellow-filled circle.
     # ------------------------------------------------------------------
 
-    title = 'PIZZA test 4:  20 slices, thin (thickness=2) black lines.'
+    title = 'PIZZA test 4:  20 slices with thin (thickness=2) black lines.'
     window = rg.RoseWindow(400, 400, title)
     circle = rg.Circle(rg.Point(200, 200), 150)
     circle.fill_color = "yellow"
